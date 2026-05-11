@@ -1,6 +1,8 @@
 # Análisis IMU: Evaluación de Finger Tapping
 
-Este módulo se centra en el análisis cuantitativo de los síntomas motores de la Enfermedad de Parkinson (EP) utilizando datos de Unidades de Medición Inercial (IMU) (acelerómetro y giroscopio).
+Este módulo presenta una metodología original desarrollada para el análisis cuantitativo de los síntomas motores de la Enfermedad de Parkinson (EP) utilizando datos de Unidades de Medición Inercial (IMU) (acelerómetro y giroscopio).
+
+A diferencia del módulo de vídeo, este pipeline ha sido diseñado y desarrollado íntegramente como parte de esta investigación, centrándose en la discriminabilidad estadística entre estadios de la enfermedad.
 
 ## 🚀 Descripción del Pipeline
 
