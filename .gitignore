@@ -1,0 +1,119 @@
+# ==========================================
+# GITIGNORE UNIVERSAL (Base para Proyectos)
+# ==========================================
+
+# --- Sistema Operativo ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Python & Ambientes ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- JavaScript / Node.js / Web ---
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+.stylelintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next
+out/
+.docusaurus/
+.turbo/
+
+# --- Compilados & Binarios (C/C++, Java, Rust, etc.) ---
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+target/
+bin/
+obj/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- IDEs & Editores ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.classpath
+
+# --- Análisis de Vídeo (Específico de este repositorio) ---
+video_analysis/videos_FIS/videos/
+video_analysis/log/*
+!video_analysis/log/.gitkeep
+video_analysis/output_files/*
+!video_analysis/output_files/.gitkeep
+video_analysis/results_files/*
+!video_analysis/results_files/.gitkeep
+video_analysis/condaenv.*.requirements.txt
+
+# --- Análisis IMU (Específico de este repositorio) ---
+imu_analysis/resultados_golpeteo_completo/*.xlsx
+imu_analysis/resultados_golpeteo_completo/*.joblib
+imu_analysis/resultados_golpeteo_completo/figuras/
+imu_analysis/resultados_golpeteo_completo/tablas/
+
+# --- Otros ---
+.env
+.env.local
+.env.*.local
+*.bak
+*.tmp
+*.temp
+
+# --- Agentes y Gemini ---
+GEMINI.md
+**/GEMINI.md
+AGENTS.md
+**/AGENTS.md
+memory/
+**/memory/

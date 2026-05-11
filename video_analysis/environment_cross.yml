@@ -1,0 +1,25 @@
+name: pd_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - tqdm
+  - scikit-learn
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - scipy
+  - opencv
+  - py-xgboost
+  - numba
+  - llvmlite
+  - openpyxl
+  - pip
+  - pip:
+    - mediapipe
+    - tsfresh
