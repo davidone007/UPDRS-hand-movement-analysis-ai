@@ -64,24 +64,18 @@ Este código ha sido escrito en Python y se utiliza también un Jupyter Notebook
 
 ## Requisitos
 
-En este proyecto puede encontrar tres archivos diferentes para recrear el entorno conda:
+Este proyecto utiliza un entorno de Conda compartido para todos los módulos de análisis. Para recrear el entorno, utilice el archivo `environment_cross.yml` ubicado en la raíz del repositorio:
 
-a) Para instalar solo los paquetes, ejecute:
+a) Para importar el entorno multiplataforma (recomendado), ejecute desde la raíz del proyecto:
 
-```setup
-conda create --name nuevo_entorno --file requirements.txt
-```
-
-b) Para importar el entorno completo, ejecute:
-
-```setup
-conda env create -f environment.yml
-```
-
-c) Para importar el entorno multiplataforma (recomendado para diferentes SO), ejecute:
-
-```setup
+```bash
 conda env create -f environment_cross.yml
+```
+
+b) Si prefiere instalar solo los paquetes mediante `requirements.txt` (ubicado en esta carpeta), ejecute:
+
+```bash
+conda create --name nuevo_entorno --file requirements.txt
 ```
 
 ## Instrucciones de Uso

@@ -45,11 +45,16 @@ Una aplicación web (SPA) diseñada para asistir a los clínicos generando secue
 
 ## 🛠 Configuración e Instalación
 
-Cada módulo tiene sus propios requisitos de entorno:
+Este proyecto utiliza un entorno de Conda compartido para los módulos de análisis de vídeo e IMU:
 
-- **Análisis de Vídeo**: Requiere un entorno Conda (ver `video_analysis/environment.yml` o `environment_cross.yml`).
-- **Análisis IMU**: Requiere librerías estándar de ciencia de datos (`numpy`, `pandas`, `scipy`, `sklearn`).
-- **Guía Sonora**: No requiere instalación; abra `sound_guide/guia_sonora_tlr3_v3.html` en cualquier navegador moderno.
+1. **Crear Entorno**: Utilice el archivo `environment_cross.yml` ubicado en la raíz del proyecto.
+   ```bash
+   conda env create -f environment_cross.yml
+   ```
+
+2. **Módulos**:
+   - **Análisis de Vídeo e IMU**: Ambos comparten las mismas dependencias gestionadas por el entorno anterior.
+   - **Guía Sonora**: No requiere instalación; abra `sound_guide/guia_sonora_tlr3_v3.html` en cualquier navegador moderno.
 
 ---
 

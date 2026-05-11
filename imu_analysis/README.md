@@ -26,6 +26,14 @@ El análisis sigue un flujo de trabajo riguroso de "Extracción → Inferencial 
 - **Aprendizaje Automático**: `scikit-learn` (Análisis Discriminante Lineal, StandardScaler, métricas ROC/AUC).
 - **Visualización**: `matplotlib`, `seaborn`.
 
+## ⚙️ Requisitos
+
+Este módulo utiliza un entorno de Conda compartido para todos los análisis. Para recrear el entorno, utilice el archivo `environment_cross.yml` ubicado en la raíz del repositorio:
+
+```bash
+conda env create -f environment_cross.yml
+```
+
 ## 📁 Estructura de Directorios
 
 - `FINGER_TAPPING/`: Datos brutos en formato JSON, organizados por carpetas (Score 0 a Score 4).
