@@ -45,6 +45,6 @@
     "auc_macro": 0.953,
     "f1_macro": 0.8331,
     "mcc": 0.7822,
-    "gap_train": NaN
+    "gap_train": 0.0512
   }
 }

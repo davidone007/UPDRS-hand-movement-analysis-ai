@@ -17,9 +17,9 @@ compensacion_lateral,8.434,0.0769,1.8458,False,False,0.1642,grande,32,5
 amplitud_cv,4.638,0.3265,7.8368,False,False,0.0236,pequeño,32,5
 regularidad,4.638,0.3265,7.8368,False,False,0.0236,pequeño,32,5
 rango_angular_total,4.04,0.4006,9.6144,False,False,0.0015,ninguno,32,5
-decremento_pendiente,3.736,0.4429,10.6293,False,False,-0.0098,ninguno,32,5
-rms_acc_lateral,3.423,0.4897,11.7534,False,False,-0.0214,ninguno,32,5
-energia_relativa_dom,3.215,0.5225,12.5404,False,False,-0.0291,ninguno,32,5
-rango_wz,2.534,0.6385,15.325,False,False,-0.0543,ninguno,32,5
-amplitud_angular_media,2.445,0.6544,15.7063,False,False,-0.0576,ninguno,32,5
-decremento_pct,2.239,0.6919,16.6046,False,False,-0.0652,ninguno,32,5
+amplitud_angular_media,2.445,0.6544,15.7063,False,False,0.0,ninguno,32,5
+decremento_pct,2.239,0.6919,16.6046,False,False,0.0,ninguno,32,5
+decremento_pendiente,3.736,0.4429,10.6293,False,False,0.0,ninguno,32,5
+rms_acc_lateral,3.423,0.4897,11.7534,False,False,0.0,ninguno,32,5
+energia_relativa_dom,3.215,0.5225,12.5404,False,False,0.0,ninguno,32,5
+rango_wz,2.534,0.6385,15.325,False,False,0.0,ninguno,32,5
