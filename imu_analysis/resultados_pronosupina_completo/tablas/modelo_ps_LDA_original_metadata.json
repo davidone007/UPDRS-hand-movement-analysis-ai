@@ -1,0 +1,50 @@
+{
+  "modelo": "LDA_original",
+  "descripcion": "LDA shrinkage=0.95 sobre datos crudos",
+  "es_principal": true,
+  "es_exploratorio": false,
+  "feature_names": [
+    "frecuencia",
+    "cadencia",
+    "intervalo_medio",
+    "intervalo_cv",
+    "intervalo_std",
+    "amplitud_media",
+    "amplitud_cv",
+    "amplitud_max",
+    "amplitud_angular_media",
+    "rango_angular_total",
+    "velocidad_pico_media",
+    "velocidad_pico_max",
+    "regularidad",
+    "n_hesitaciones",
+    "decremento_pct",
+    "decremento_pendiente",
+    "compensacion_lateral",
+    "jerk_rms",
+    "jerk_rms_angular",
+    "rms_acc_lateral",
+    "energia_relativa_dom",
+    "rango_wx",
+    "rango_wy",
+    "rango_wz"
+  ],
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "tarea": "pronacion-supinacion",
+  "version": "3.0",
+  "dataset": "original",
+  "n_pruebas": 391,
+  "metricas_loso": {
+    "accuracy": 0.8235,
+    "auc_macro": 0.9444,
+    "f1_macro": 0.8218,
+    "mcc": 0.7762,
+    "gap_train": 0.0588
+  }
+}

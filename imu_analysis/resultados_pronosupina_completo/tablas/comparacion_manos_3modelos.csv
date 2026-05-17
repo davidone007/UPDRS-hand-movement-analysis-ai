@@ -1,0 +1,7 @@
+Modelo,Mano,n,Accuracy,AUC_macro,F1_macro,MCC
+LDA_original,right,195,0.8256,0.9551,0.819,0.7778
+LDA_original,left,196,0.7806,0.9334,0.7747,0.714
+KNN_original,right,195,0.8718,0.9851,0.866,0.8343
+KNN_original,left,196,0.8112,0.965,0.8033,0.7512
+LDA_ajustado,right,195,0.841,0.9665,0.836,0.7964
+LDA_ajustado,left,196,0.7959,0.9399,0.7928,0.7328
