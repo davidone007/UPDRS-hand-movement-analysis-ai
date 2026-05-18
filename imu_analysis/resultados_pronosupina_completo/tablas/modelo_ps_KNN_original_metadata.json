@@ -1,14 +1,11 @@
 {
   "modelo": "KNN_original",
-  "descripcion": "KNN k=9 weights=distance sobre datos crudos",
+  "descripcion": "KNN k=11 weights=distance sobre datos crudos",
   "es_principal": true,
   "es_exploratorio": false,
   "feature_names": [
     "frecuencia",
     "cadencia",
-    "intervalo_medio",
-    "intervalo_cv",
-    "intervalo_std",
     "amplitud_media",
     "amplitud_cv",
     "amplitud_max",
@@ -17,17 +14,10 @@
     "velocidad_pico_media",
     "velocidad_pico_max",
     "regularidad",
-    "n_hesitaciones",
-    "decremento_pct",
-    "decremento_pendiente",
     "compensacion_lateral",
     "jerk_rms",
     "jerk_rms_angular",
-    "rms_acc_lateral",
-    "energia_relativa_dom",
-    "rango_wx",
-    "rango_wy",
-    "rango_wz"
+    "energia_relativa_x"
   ],
   "classes": [
     0,
@@ -41,10 +31,10 @@
   "dataset": "original",
   "n_pruebas": 391,
   "metricas_loso": {
-    "accuracy": 0.8849,
-    "auc_macro": 0.9803,
-    "f1_macro": 0.8838,
-    "mcc": 0.8505,
-    "gap_train": 0.1151
+    "accuracy": 0.7494,
+    "auc_macro": 0.9301,
+    "f1_macro": 0.7427,
+    "mcc": 0.6696,
+    "gap_train": 0.2506
   }
 }
